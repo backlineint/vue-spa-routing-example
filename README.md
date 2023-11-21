@@ -5,9 +5,12 @@ Proof of concept example based on a discussion in [Pantheon Community Slack](htt
 * App was scaffolded using `npm create vue@latest` and adding `vue-router`.
 * Adds an express server to serve the static app from `/dist`.
 * Uses `[connect-history-api-fallback](https://github.com/bripkens/connect-history-api-fallback)` to serve `index.html` for all SPA routes.
+* Runs via `start` script in `package.json` at port 8080.
 
 Front-end sites configuration:
-TBD.
+* Framework - Next.js
+* Connected CMS - None
+* Build command: build
 
 ---
 
