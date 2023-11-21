@@ -2,7 +2,7 @@ const express = require('express');
 var history = require('connect-history-api-fallback');
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT ?? 8000;
 
 // Serve the static build from the dist folder
 const staticFileMiddleware = express.static('dist');
